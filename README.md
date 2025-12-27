@@ -22,12 +22,7 @@ Data used
 
 ## Models and federated setups
 
-The thesis experiments compare several model families commonly used on tabular data. Update the list below to reflect the exact models implemented in `src/`:
-
-- Logistic Regression (sklearn) — baseline linear model
-- Random Forest / Gradient Boosted Trees (sklearn / XGBoost / LightGBM) — strong tabular baselines
-- Simple fully-connected neural networks (PyTorch / TensorFlow) — used for investigating learned feature backdoors in neural models
-- (Optional) TabNet or other specialized tabular architectures — include if used
+The thesis uses a TabNet, originally from https://arxiv.org/pdf/1908.07442.pdf. We use the pytorch implementation from https://github.com/dreamquark-ai/tabnet
 
 Federated learning setup:
 
